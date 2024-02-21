@@ -1,0 +1,51 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+.button-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    color: white;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button.active {
+    border-color: orange; /* Adiciona uma borda laranja quando o botão estiver ativo */
+    box-shadow: 0 0 10px orange; /* Adiciona um efeito de sombra brilhante quando o botão estiver ativo */
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+}
+
+.button.active {
+    transform: translateY(-5px); /* Levanta o botão */
+}
+
+.button img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.button-text {
+    display: block;
+    margin-top: 5px;
+}

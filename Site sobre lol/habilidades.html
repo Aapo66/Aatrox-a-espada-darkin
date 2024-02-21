@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aatrox: História, habilidades e dicas</title>
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/background.css">
+    <link rel="stylesheet" href="Styles/body.css">
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/button.css">
+    <link rel="stylesheet" href="Styles/hidden.css">
+    <link rel="icon" id="favicon" href="Imagens/Aatrox favicon habilidades.webp" type="image/x-icon">
+
+
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="Videos/Shurima background.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
+        </video>
+    </div>
+    <div class="sidebar">
+        <nav class="sidebar__navigation">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Imagens/Aatrox sem fundo.png" alt="Splash art do campeão Aatrox que liga a pagina inicial da pagina ao ser clicada">
+                </a>
+            </div>
+         <ul>
+            <li>
+                <a href="index.html">
+                    Inicio
+                </a>
+            </li>
+            <li>
+                <a href="historia.html">
+                    Hístoria
+                </a>
+            </li>
+            <li>
+                <a href="habilidades.html">
+                    Habilidades
+                </a>
+            </li>
+            <li>
+                <a href="dicas.html">
+                    Dicas
+                </a>
+            </li>
+         </ul>
+         <a class="contatos" href="contatos.html">Contatos</a>
+        </nav>
+    </div>
+    <div class="main__buttons">
+        <div class="button-container">
+            <div class="button-item">
+                <button id="button__passivacombos" class="button active" onclick="showContent('passivacombos')">
+                    <img src="Imagens/Aatrox passiva.webp" alt="Icone da habilidade passiva do Aatrox">
+                    <span class="button-text">PASSIVA:POSTURA DO ARAUTO DA MORTE</span>
+                </button>
+            </div>
+            <div class="button-item">
+                <button id="button__q"  class="button" onclick="showContent('q')">
+                    <img src="Imagens/Aatrox Q.webp" alt="Icone da habilidade Q do Aatrox">
+                    <span class="button-text">Q: A ESPADA DARKIN</span>
+                </button>
+            </div>
+            <div class="button-item">
+                <button id="button__w" class="button" onclick="showContent('w')">
+                    <img src="Imagens/Aatrox W.webp" alt="Icone da habilidade W do Aatrox">
+                    <span class="button-text">W: CORRENTES INFERNAIS</span>
+                </button>
+            </div>
+            <div class="button-item">
+                <button id="button__e" class="button" onclick="showContent('e')">
+                    <img src="Imagens/Aatrox E.webp" alt="Icone da habilidade E do Aatrox">
+                    <span class="button-text">E: AVANÇO UMBRAL</span>
+                </button>
+            </div>
+            <div class="button-item">
+                <button id="button__r" class="button" onclick="showContent('r')">
+                    <img src="Imagens/Aaatrox R.webp" alt="Icone da habilidade R do Aatrox">
+                    <span class="button-text">R: ANIQUILADOR DE MUNDOS</span>
+                </button>
+            </div>
+        </div>
+            <div id="passivacombos" class="hidden">
+                    <video autoplay muted loop>
+                        <source src="Videos/Aatrox passiva.webm" type="video/mp4">
+                        Seu navegador não suporta vídeo HTML5.
+                    </video>
+                    <div class="hidden__text">
+                        <p>Periodicamente, o próximo ataque básico de Aatrox causa Dano Físico adicional e o cura com base na Vida máxima do alvo.</p>
+                    </div>
+            </div>
+            <div id="q" class="hidden">
+                <video autoplay muted loop>
+                    <source src="Videos/Aatrox Q.webm" type="video/mp4">
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+                <div class="hidden__text">
+                    <p>Aatrox bate sua espada no chão, causando Dano Físico. Ele pode bater até três vezes, cada vez em uma área de ação diferente.</p>
+                </div>
+            </div>
+            <div id="w" class="hidden">
+                <video autoplay muted loop>
+                    <source src="Videos/Aatrox W.webm" type="video/mp4">
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+                <div class="hidden__text">
+                     <p>Aatrox bate no chão, causando dano ao primeiro inimigo atingido. Campeões e Monstros Grandes precisam sair da área de impacto rapidamente ou serão arrastados para o centro e receberão dano novamente.</p>
+                </div> 
+            </div>   
+            <div id="e" class="hidden">
+                <video autoplay muted loop>
+                    <source src="Videos/Aatrox E.webm" type="video/mp4">
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+                <div class="hidden__text">
+                     <p>Passivamente, Aatrox se cura quando causa dano a Campeões inimigos. Quando ativado, ele avança em uma direção.</p>
+                </div> 
+            </div>  
+            <div id="r" class="hidden">
+                <video autoplay muted loop>
+                    <source src="Videos/Aatrox R.webm" type="video/mp4">
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+                <div class="hidden__text">
+                     <p>Aatrox libera sua forma demoníaca, aterrorizando tropas inimigas próximas, ganhando Dano de Ataque, cura aumentada e Velocidade de Movimento. Se ele conseguir um abate, este efeito é estendido.</p>
+                </div> 
+            </div>   
+        </div>
+        </div>
+    </div>
+<script src="Scripts/script.js"></script>
+</html>

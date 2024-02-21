@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aatrox: História, habilidades e dicas</title>
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/background.css">
+    <link rel="stylesheet" href="Styles/body.css">
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/button.css">
+    <link rel="stylesheet" href="Styles/hiddendicas.css">
+    <link rel="stylesheet" href="Styles/dicas.css">
+    <link rel="icon" id="favicon" href="Imagens/favicon dicas.webp" type="image/x-icon">
+
+
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="Videos/Shurima background.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
+        </video>
+    </div>
+    <div class="sidebar">
+        <nav class="sidebar__navigation">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Imagens/Aatrox sem fundo.png" alt="Splash art do campeão Aatrox que liga a pagina inicial da pagina ao ser clicada">
+                </a>
+            </div>
+         <ul>
+            <li>
+                <a href="index.html">
+                    Inicio
+                </a>
+            </li>
+            <li>
+                <a href="historia.html">
+                    Hístoria
+                </a>
+            </li>
+            <li>
+                <a href="habilidades.html">
+                    Habilidades
+                </a>
+            </li>
+            <li>
+                <a href="dicas.html">
+                    Dicas
+                </a>
+            </li>
+         </ul>
+         <a class="contatos" href="contatos.html">Contatos</a>
+        </nav>
+    </div>
+    <div class="main__buttons">
+        <div class="button-container">
+            <div class="button-item">
+                <button id="button__passivacombos" class="button active" onclick="showContent('passivacombos')">
+                    <img src="Imagens/favicon dicas.webp" alt="Imagem do elo Challenger, maior elo que pode-se chegar no jogo">
+                    <span class="button-text">COMBOS</span>
+                </button>
+            </div>
+            <div class="button-item">
+                <button id="button__early"  class="button" onclick="showContent('early')">
+                    <img src="Imagens/favicon dicas.webp" alt="Imagem do elo Challenger, maior elo que pode-se chegar no jogo">
+                    <span class="button-text">EARLY GAME</span>
+                </button>
+            </div>
+            <div class="button-item">
+                <button id="button__midlate" class="button" onclick="showContent('midlate')">
+                    <img src="Imagens/favicon dicas.webp" alt="Imagem do elo Challenger, maior elo que pode-se chegar no jogo">
+                    <span class="button-text">MID E LATE GAME</span>
+                </button>
+            </div>
+            <div class="button-item">
+                <button id="button__posicionamento" class="button" onclick="showContent('posicionamento')">
+                    <img src="Imagens/favicon dicas.webp" alt="Imagem do elo Challenger, maior elo que pode-se chegar no jogo">
+                    <span class="button-text">POSICIONAMENTO</span>
+                </button>
+            </div>
+            <div class="button-item">
+                <button id="button__itemizacao" class="button" onclick="showContent('itemizacao')">
+                    <img src="Imagens/favicon dicas.webp" alt="Imagem do elo Challenger, maior elo que pode-se chegar no jogo">
+                    <span class="button-text">SPELLS, ITEMIZAÇÃO , RUNAS E COUNTERS</span>
+                </button>
+            </div>
+        </div>
+            <div id="passivacombos" class="hidden">
+                <div class="box">
+                    <h1>Irei colocar 3 combos de Aatrox aqui, 1 facil, 1 medio e 1 dificil</h1>
+                </div>
+                <div class="box" id="combo-facil">
+                    <p>FACIL</p>
+                    <br>
+                    <div class="combo-images">
+                    <img src="Imagens/Aatrox Q.webp" alt="Icone da habilidade Q do Aatrox">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img src="Imagens/Aatrox E.webp" alt="Icone da habilidade E do Aatrox">
+                    </div>
+                    <p>Troque normalmente usando o Q e então no meio da animação do segundo Q use o E para acertar o ponto crítico</p>
+                </div>
+                
+                <div class="box" id="combo-medio">
+                    <p>MÉDIO</p>
+                    <br>
+                    <div class="combo-images">
+                    <img src="Imagens/Aatrox Q.webp" alt="Icone da habilidade Q do Aatrox">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img src="Imagens/Aatrox Q.webp" alt="Icone da habilidade Q do Aatrox">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img src="Imagens/Aatrox Q.webp" alt="Icone da habilidade Q do Aatrox">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img src="Imagens/Aatrox E.webp" alt="Icone da habilidade E do Aatrox">
+                    </div>
+                    <p>Extenda sua troca usando o Q duas vezes e no terceiro e mais forte Q use o E para acertar o ponto crítico</p>
+                </div>
+                <div class="box" id="combo-dificil">
+                    <p>DIFICIO</p>
+                    <br>
+                    <div class="combo-images">
+                    <img src="Imagens/Aaatrox R.webp" alt="Icone da habilidade Q do Aatrox">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img src="Imagens/Aatrox Q.webp" alt="Icone da habilidade Q do Aatrox">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img src="Imagens/Aatrox W.webp" alt="Icone da habilidade Q do Aatrox">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img src="Imagens/Aatrox E.webp" alt="Icone da habilidade E do Aatrox">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img class="autoattack" src="Imagens/auto attack.png" alt="Icone de duas espadas se cruzando, exemplificando o auto attack do lol">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img src="Imagens/Aatrox Q.webp" alt="Icone da habilidade Q do Aatrox">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img class="autoattack" src="Imagens/auto attack.png" alt="Icone de duas espadas se cruzando, exemplificando o auto attack do lol">
+                    <img src="Imagens/seta.png" alt="Seta apontada para direita">
+                    <img src="Imagens/Aatrox Q.webp" alt="Icone da habilidade Q do Aatrox">
+                    </div>
+                    <p>Esse combo é um pouco mais dificil mas não é impossivel. Depois de pegar o nivel 6 Use sua ult(R) para aumentar sua cura, dano e ficar mais rapido para chegar no range do Q, então instantaneamente aperte Q W E, dê um auto attack, dê o segundo Q para manter o inimigo no seu W, então finalize com outro auto attack e o ultimo Q</p>
+                </div>
+            </div>
+            <div id="early" class="hidden">
+                <div class="box">
+                    <br>
+                    <p>Aatrox é um campeão muito forte, principalmente por sua cura e sutain, mas early game, principalmente quando ele não tem sua habilidade ultimate o foco é ficar mais safe e focar farm </p>
+                    <br>
+                </div>
+                <div class="box">
+                    <br>
+                    <p>Enquanto você estiver focando na lane phase (irei falar sobre jajá) tente sempre ficar de olho no mapa para ganks e também para oportunidades de roaming para ajudar o jg para fazer vastilarvas ou arauto, ou ate mesmo ajudar o mid aliado</p>
+                    <br>
+                    <p>Tente logo no inicio do jogo wardar a jg inimida para ver por onde o jg inimigo começou, se nao der warde a jg alidaa ou espere ate os 2 minutos e pouco e warde o rio para assim você ficar mais seguro com ganks</p>
+                    <br>
+                    <br>
+                </div>
+                <div class="box">
+                    <p>Lane Phase</p>
+                    <br>
+                    <p>NIVEL 1-6</p>
+                    <br>
+                    <p>Até o nivel 6 eu recomendo você focar em farmar e principalmente freeze sua lane, isso vai fazer com que seja bem mais facil pro seu jg te gankar. So troque com o Q se tiver oportunidade e nao gaste o E, ele vai ser seu escape caso receba gank ou tenha que desviar de alguma skill inimiga</p>
+                    <br>
+                    <p>guarde seus feitiços de invocador para escapar (se tiver usando flash) e para voltar para a lane rapido com o TP lembre-se você não quer focar em matar ou ganhar lutas agora, e sim farmar e ficar safe</p>
+                    <br>
+                    <p>faça isso até conseguir pegar o nivel 6. No nivel 6 você vai ter sua ultimate e se jogou certinho e ficou safe vai conseguir ter metade do primeiro item já</p>
+                </div>
+            </div>
+            <div id="midlate" class="hidden">
+                <div class="box">
+                    <br>
+                    <h1>MID GAME</h1>
+                    <br>
+                    <p>Depois do nivel 6 Aatrox começa a ficar mais forte, sua ultimate aumenta o dano que você causa, aumenta a cura e velocidade de movimento.</p>
+                    <br>
+                    <p>Após o nivel 6 você pode começar a jogar mais agressivamente</p>
+                    <br>
+                    <br>
+                    <br>
+                    <p>NIVEL 6-14</p>
+                    <br>
+                    <p>Após você ter pego sua ultimate você pode começar a trocar com o inimigo, se você tiver jogando com o feitiço de invocador ignite você tera uma vantagem muito boa nas trocas</p>
+                    <br>
+                    <p>continue focando farm e se tiver forte e ja tiver pego alguma kill continue freezando para negar xp para seu adversario</p>
+                    <br>
+                    <p>você pode avançar a wave para torre do inimigo caso você mate ele, caso ele voltou base e nao tem TP, e se vc ver que estão lutando algum objetivo do lado oposto do mapa e você não tem como ajudar com um TP</p>
+                </div>
+                <div class="box">
+                    <h1>LATE GAME</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <p>NIVEL 14-18</p>
+                    <br>
+                    <p>Nesse momento do jogo o seu foco é andar com o time, quase sempre, você so focara em splitar ou destruir alguma torre em casos muito especificos</p>
+                    <br>
+                    <p>Ajude seu time com objetivos, lute em todas as teamfights possiveis</p>
+                    <br>
+                    <p>Aatrox late game decai muito e nao causa mais tanto dano, porem o sustain dele continua sendo absurdo e isso vai fazer com que você consiga ajudar muito o seu time protegendo eles e fazendo focarem em você se posicionando na frente</p>
+                </div>
+            </div>   
+            <div id="posicionamento" class="hidden">
+                <div class="box">
+                    <p>Jogando de Aatrox você tem que ter a noção que com sua cura e sustain você vai ser o frontline do seu time, frontline significa que você vai ser o campeão que vai ficar na frente para proteger os outros players e principalmente proteger seu ADC que quase sempre será focado</p>
+                </div>
+                <div class="box">
+                    <h1>EARLY GAME</h1>
+                    <br>
+                    <br>
+                    <p>Early game seu foco é ficar safe, farmar, ajudar seu jg em objetivos proximos e se possivel ajudar o mid com algum roaming(somente se tiver oportunidade)</p>
+                </div>
+                <div class="box">
+                    <h1>MID GAME</h1>
+                    <br>
+                    <br>
+                    <p>Mid game ja muda um pouco as coisas, você tem que ficar sempre esperto com TP (se você tiver usando) para sempre que o bot precisar ou o seu time for lutar dragão você estar presente, é muito importante você estar presente em todas as lutas possiveis</p>
+                    <p>(caso você não esteja com TP tente andar com o time e nao fique do lado oposto dos objetivos)</p>
+                </div>
+                <div class="box">
+                    <h1>LATE GAME</h1>
+                    <p>Late game seu objetivo é puramente andar com o time, guarde o TP para contestar algum backdoor ou se vcs derem um ACE(matar todo o time adversario) dar TP para uma lane oposta para levar uma torre, mas o foco principalm é ficar com o seu time sempre</p>
+                </div>
+            </div>  
+            <div id="itemizacao" class="hidden">
+                <div class="box">
+                    <h1>SPELLS</h1>
+                    <img src="Imagens/SummonerFlash.webp" alt="Icone do feitiço de invocador Flash">
+                    <img src="Imagens/SummonerTeleport.webp" alt="Icone do feitiço de invocador Teleporte">
+                    <p>O meta atual para Aatrox é usar Flash para ter um escape bom e Teleporte para chegar nos objetivos</p>
+                    <br>
+                    <img src="Imagens/SummonerTeleport.webp" alt="Icone do feitiço de invocador Teleporte">
+                    <img src="Imagens/SummonerDot.webp" alt="Icone do feitiço de invocador Ignite">
+                    <p>Eu pessoalmente prefiro ir de Teleporte e Ignite, se você jogar certinho early você consegue item rapido e com ceu dividido você consegue um sustain otimo na lane, além de ter o dash do E e a ultimate para ajudarem em escapar, isso faz com que nao seja necessario o flash, e o ignite ajuda bastante na lane inclusive para cortar cura de campeões que abusam de cura. E o teleporte como sempre muito util para ajudar em objetivos no geral</p>
+                </div>
+                <div class="box__itemizar">
+                    <div class="texto-sobre-imagem">
+                        <h1>ITEMIZAÇÃO</h1>
+                        <p>O meta atual fala uma build um pouco diferente para o Aatrox mas eu vou ta passando a minha build atual que é so um pouco diferente</p>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="itemizar__imagem">
+                    <img src="Imagens/Build.png" alt="Foto com a Build que eu gosto de fazer">
+                    </div>
+                    <div class="itemizar__text">
+                    <br>
+                    <br>
+                    <h1>Iniciais</h1>
+                    <p>Early game eu gosto sempre de ficar o maximo safe possivel, então eu começo geralmente com couraça de pano ou manto anula magia e uma poção refil (caso eu esteja contra alguem que tenha muito roubo de vida ou muita cura eu aço espada longa para ja fechar logo chamado do carrasco)</p>
+                    <p>Se você tiver se perguntando porque eu não faço nenhum item de doran, é porque eu prefiro ter uma troca mais fraca no early e ficar safe do que perder o dinheiro de vender doran no late game, é mais uma escolha pessoal mesmo</p>
+                    <br>
+                    <br>
+                    <h1>Primeira Volta</h1>
+                    <p>Geralmente eu fecho na primeira volta o martelo de caulfield e botas, e se possivel compro uma pink, mas isso so se eu tiver muito bem na lane, geralmente gosto de rushar botas e depois começo a rushar o item principal</p>
+                    <br>
+                    <br>
+                    <h1>Botas</h1>
+                    <p>Botas é simples, se você tiver contra muito ad você faz a bota galvanizada de aço normal, mas se tiver muito AP ou muito campeão com CC eu prefiro fazer Passos de mercúrio</p>
+                    <br>
+                    <br>
+                    <h1>Core</h1>
+                    <p>Os itens core são Eclipse(gosto de rushar ele primeiro item caso eu esteja bem pois da um dano muito grande alem do escudo da passiva que ajuda muito) seguido de céu dividido depois da bota, céu dividido é um dos itens mais fortes no patch atual, o critico e a cura que ele da no auto attack depois de um tempo é totalmente broken. Gosto muito de shojin pois aumenta mais o potencial de dano, Sterak e Dança da morte são para dar um sustain maior, o escudo de Sterak é incrivel alem do AD passivo que ele dá, já dança da morte mitiga dano então é espetacular. O ultimo item do core é Anjo guardião que eu gosto de fechar antes se eu tiver MUITO FORTE MESMO, mas o ideal é so late game você vender bota e fazer GA (só se necessário)</p>
+                    <br>
+                    <br>
+                    <h1>Situacionais</h1>
+                    <p>Cutelo faço geralmente quando tem muito tank lá para quebrar armadura e malmortius eu faço se o time deles tiver muito AP ou um AP muito forte que ta me explodindo ou dando muito dano ao longo do tempo esses dois itens eu faço no lugar de Sterak caso for fazer</p>
+                    <p>Serraspada eu faço se tiver muita cura ou roubo de vida la ou eu tiver contra um campeão que tem isso na lane, geralmente faço serraspada no lugar de Dança da Morte</p>
+                    </div>
+                </div>
+                    <div class="box__itemizar">
+                        <div class="texto-sobre-imagem">
+                            <h1>RUNAS</h1>
+                            <p>Essa é a Runa que eu uso que também é a do meta, tentei usar com secundaria dominação um tempo mas essa é a melhor runa mesmo</p>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="itemizar__imagem">
+                        <img src="Imagens/Runas.png" alt="Foto com a Runa que eu gosto de fazer">
+                        </div>
+                        <div class="itemizar__text">
+                        <br>
+                        <br>
+                        <h1>Conquistador</h1>
+                        <p>A runa do Conquistador é muito boa principalmente paras trocas, ela faz com que você se cure mais e dê mais dano é indispensavel pro Aatrox, ela comba muito muito bem com ele</p>
+                        <br>
+                        <br>
+                        <h1>Triunfo</h1>
+                        <p>Triuno é otimo para te curar e além disso dar ouro a mais por abate, é uma runa muito boa</p>
+                        <br>
+                        <br>
+                        <h1>Lenda: Tenacidade</h1>
+                        <p>Essa ruan é outra indispensavel, ela da tenacidade. Tenacidade diminui o tempo de todo controle de grupo do jogo, e Aatrox sofre muito com qualquer tipo de CC, então essa runa é indispensavel</p>
+                        <br>
+                        <br>
+                        <h1>Até a morte</h1>
+                        <p>Outra runa muito boa, essa runa az com que você dê mais dano quanto menos vida você está, e como você é um frontline você sempre vai perder vida, você ter mais dano fará com que você se cure mais ficando mais tempo vivo e até mesmo conseguir algum abate</p>
+                        <br>
+                        <br>
+                        <h1>Arvore de Determinação</h1>
+                        <p><strong>Osso Revestido</strong>: Essa runa é otima para se manter mais vivo, pois ao ser atacado os proximos 3 ataque que você receber darão menos dano</p>
+                        <p><strong>Revitalizar</strong>:Essa runa é otima para sustain também, aumentando a cura e escudo que você recebe, o que aumenta também a propria cura do Aatrox</p>
+                        <br>
+                        <br>
+                        <h1>Runas menores</h1>
+                        <p>Por ultimo nas runas menores eu gosto de colocar 2 de força adaptativa e a ultima de tenacidade para aumentar a resistencia a Controle de Grupo (CC)</p>
+                        </div>
+                    </div>
+                <div class="box">
+                    <h1>COUNTERS</h1>
+                    <br>
+                    <p>Principais Counter de Aatrox pelo menos para mim é Illaoi e Fiora recomendo sempre banir elas</p>
+                    <br>
+                    <p><strong>Illaoi</strong>:Illaoi você tem que sempre tentar ao maximo desviar do E dela, que é a habilidade que puxa sua alma, e sempre que ela tiver ultimate tentar baitar a ult dela sem que ela puxe sua alma com o E</p>
+                    <p><strong>Fiora</strong>:Fiora você tem que ao maximo tentar não deixar ela acertar a passiva em você e também baitar o W dela o Ripostar, sem essa habilidade é muito facil trocar com ela</p>
+                </div>
+            </div>   
+        </div>
+    </div>
+<script src="Scripts/script.js"></script>
+</html>
+

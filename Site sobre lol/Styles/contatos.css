@@ -1,0 +1,13 @@
+.social-links {
+    display: flex;
+    flex-direction: column; /* Define a direção como vertical */
+    margin-top: 50px;
+}
+
+.social-links a {
+    margin-bottom: 20px; /* Espaçamento entre os links */
+}
+
+.social-links a img{
+    width: 50px;
+}

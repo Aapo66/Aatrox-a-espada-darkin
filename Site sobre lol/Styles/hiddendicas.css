@@ -1,0 +1,8 @@
+.hidden {
+    display: none
+}
+
+.hidden .autoattack{
+    background-color: white;
+}
+

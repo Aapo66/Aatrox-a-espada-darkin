@@ -1,0 +1,75 @@
+.main {
+    color: blanchedalmond;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    transform: translate(0, 0);
+    width: 90%; /* Define a largura da seção */
+    height: 0; /* Cobrir toda a altura da página */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+    border-left: 2px solid blanchedalmond; /* Adiciona uma borda à esquerda */
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo transparente */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical, se necessário */
+    animation: slideDown 1s ease forwards; /* Aplica a animação de deslizamento para baixo */
+}
+
+.main__buttons{
+    color: blanchedalmond;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    transform: translate(0, 0);
+    width: 90%; /* Define a largura da seção */
+    height: 0; /* Cobrir toda a altura da página */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+    border-left: 2px solid blanchedalmond; /* Adiciona uma borda à esquerda */
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo transparente */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical, se necessário */
+    animation: slideDown 1s ease forwards; /* Aplica a animação de deslizamento para baixo */
+}
+
+.main a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out; /* Adiciona uma transição suave */
+}
+
+@keyframes slideDown {
+    to {
+        top: 0;
+        height: 100%; /* Ajusta a altura para 100% quando a animação é concluída */
+    }
+}
+.espada__img {
+    width: 400px;
+}
+
+.darkins__img {
+    width: 1452px;
+}
+
+.icathia__img{
+    width: 1452px;
+}
+
+.container {
+    display: flex; /* Define o layout flexível */
+}
+
+.container img {
+    margin-right: 10px; /* Adiciona uma margem direita entre as imagens */
+    margin-top: 100px;
+    width: 500px;
+}
+
+.shurima__img{
+    width: 1452px;
+}
+
+.vazio__img{
+    width: 1452px;
+}
