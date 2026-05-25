@@ -26,6 +26,8 @@ Furthermore, this space will be dedicated to discussing advanced tactics to mast
 
 Feel free to get in touch with me for any suggestions, criticism, or just to exchange ideas:
 
-email: andersonelvis191@gmail.com
-twitter(X): https://twitter.com/AndersonEl16064
-linkedin: https://linkedin.com/in/anderson-elvis-8a8406227
+<a href="https://linkedin.com/in/anderson-elvis-8a8406227">
+<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />  </a>
+<a href="mailto:andersonelvis191@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />  </a>
+
