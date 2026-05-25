@@ -8,12 +8,6 @@ Aqui, mergulharemos no universo de Aatrox, explorando suas habilidades únicas, 
 
 Além disso, este espaço será dedicado a discutir táticas avançadas para dominar Aatrox nas partidas, garantindo que você esteja sempre um passo à frente de seus oponentes.
 
-Sinta-se à vontade para entrar em contato comigo para qualquer sugestão, crítica ou apenas para trocar ideias:
-
-email: andersonelvis191@gmail.com
-twitter(X): https://twitter.com/AndersonEl16064
-linkedin: https://linkedin.com/in/anderson-elvis-8a8406227
-
 ENGLISH
 
 Hello! My name is Anderson, a Computer Science student, and I'm constantly honing my skills in HTML, CSS, and Javascript.
@@ -24,6 +18,7 @@ Here, we'll delve into Aatrox's universe, exploring his unique abilities, gamepl
 
 Furthermore, this space will be dedicated to discussing advanced tactics to master Aatrox in matches, ensuring you're always one step ahead of your opponents.
 
+Sinta-se à vontade para entrar em contato comigo para qualquer sugestão, crítica ou apenas para trocar ideias:
 Feel free to get in touch with me for any suggestions, criticism, or just to exchange ideas:
 
 <a href="https://linkedin.com/in/anderson-elvis-8a8406227">
