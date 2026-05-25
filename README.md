@@ -8,6 +8,8 @@ Aqui, mergulharemos no universo de Aatrox, explorando suas habilidades únicas, 
 
 Além disso, este espaço será dedicado a discutir táticas avançadas para dominar Aatrox nas partidas, garantindo que você esteja sempre um passo à frente de seus oponentes.
 
+--
+
 ENGLISH
 
 Hello! My name is Anderson, a Computer Science student, and I'm constantly honing my skills in HTML, CSS, and Javascript.
@@ -17,6 +19,8 @@ The project you're about to explore is dedicated to the fascinating League of Le
 Here, we'll delve into Aatrox's universe, exploring his unique abilities, gameplay strategies, and the lore behind this formidable warrior.
 
 Furthermore, this space will be dedicated to discussing advanced tactics to master Aatrox in matches, ensuring you're always one step ahead of your opponents.
+
+--
 
 Sinta-se à vontade para entrar em contato comigo para qualquer sugestão, crítica ou apenas para trocar ideias:
 Feel free to get in touch with me for any suggestions, criticism, or just to exchange ideas:
